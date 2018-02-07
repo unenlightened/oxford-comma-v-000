@@ -20,6 +20,8 @@ def oxford_comma(list)
   case length
     when 1
       list.join()
+    when 2
+      list.join(" and ")
     else
       bloop
   end
