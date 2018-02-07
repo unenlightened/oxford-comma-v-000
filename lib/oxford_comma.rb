@@ -23,6 +23,11 @@ def oxford_comma(list)
     when 2
       list.join(" and ")
     else
-      bloop
+      list.each_with_index do |each, index|
+        if index < list.length-1
+          list[index] = "#{each}, "
+        else
+          list[index] = "and #{each}"
+        
   end
 end
