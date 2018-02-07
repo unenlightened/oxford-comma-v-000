@@ -29,8 +29,6 @@ def oxford_comma(list)
         else
           list[index] = "and #{each}"
         end
-
         list.join()
-
   end
 end
