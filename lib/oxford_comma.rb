@@ -1,5 +1,5 @@
 
-def _first_oxford_comma(list)
+def _first_oxford_comma(list)               #shorter
   last = list.length - 1
 
   list.each_with_index do |each, index|
@@ -14,7 +14,7 @@ def _first_oxford_comma(list)
   list.join()  #convert array to string
 end
 
-def oxford_comma(list)
+def oxford_comma(list)                      #more readable
   length = list.length
 
   case length
