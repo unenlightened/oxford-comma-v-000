@@ -1,5 +1,5 @@
 
-def 1oxford_comma(list)
+def _oxford_comma(list)
   last = list.length - 1
 
   list.each_with_index do |each, index|
@@ -24,4 +24,3 @@ def oxford_comma(list)
       bloop
   end
 end
-
