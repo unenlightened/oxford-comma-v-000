@@ -19,7 +19,7 @@ def oxford_comma(list)
 
   case length
     when 1
-      list.to_s
+      list.join()
     else
       bloop
   end
