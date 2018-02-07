@@ -18,8 +18,10 @@ def oxford_comma(list)
   length = list.length
 
   case length
-  when 1
-    list.to_s
-
+    when 1
+      list.to_s
+    else
+      bloop
   end
 end
+
