@@ -1,5 +1,5 @@
 
-def _oxford_comma(list)
+def _first_oxford_comma(list)
   last = list.length - 1
 
   list.each_with_index do |each, index|
