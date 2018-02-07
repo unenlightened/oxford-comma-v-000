@@ -15,7 +15,7 @@ def shorter_oxford_comma(list)               #shorter
   list.join()                               #convert array to string
 end
 
-def oxford_comma(list)                      # more readable
+def oxford_comma(list)                      # more readable and easier to follow
   length = list.length
 
   case length
