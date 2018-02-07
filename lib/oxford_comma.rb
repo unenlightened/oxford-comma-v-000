@@ -1,6 +1,5 @@
-array =
 
-def oxford_comma(list)
+def 1oxford_comma(list)
   last = list.length - 1
 
   list.each_with_index do |each, index|
@@ -13,4 +12,14 @@ def oxford_comma(list)
     end
   end
   list.join()  #convert array to string
+end
+
+def oxford_comma(list)
+  length = list.length
+
+  case length
+  when 1
+    list.to_s
+
+  end
 end
