@@ -14,7 +14,7 @@ def _first_oxford_comma(list)               #shorter
   list.join()  #convert array to string
 end
 
-def oxford_comma(list)                      #more readable
+def oxford_comma(list)                      # more readable
   length = list.length
 
   case length
@@ -24,10 +24,10 @@ def oxford_comma(list)                      #more readable
       list.join(" and ")
     else
       list.each_with_index do |each, index|
-        if index < list.length-1
+        if index < list.length-1            # add commas to all except the last
           list[index] = "#{each}, "
         else
-          list[index] = "and #{each}"
+          list[index] = "and #{each}"       # add and before last
         end
       end
         list.join()
